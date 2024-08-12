@@ -15,7 +15,7 @@ function Login() {
   const handleGoogleLogin = () => {
     // Redirect to Google login URL
     window.location.href =
-      "https://hiring.reachinbox.xyz/api/v1/auth/google-login?redirect_to=http://localhost:5173/";
+      "https://hiring.reachinbox.xyz/api/v1/auth/google-login?redirect_to=https://assignment-azure-zeta.vercel.app/";
   };
 
   return (
